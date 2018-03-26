@@ -2682,3 +2682,16 @@ div:hover>.small-round-icon {
 		margin-bottom: 12px;
 	}
 }
+#accordion{
+    text-align: center;
+}
+#accordion h4{
+    font-size: 24px;
+    font-weight: bold;
+}
+#accordion ul{
+    list-style-type: decimal;
+    text-align: left;
+    color: black;
+    font-size: 24px;
+}
