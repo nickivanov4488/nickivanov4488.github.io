@@ -1782,7 +1782,8 @@ div:hover>.small-round-icon {
 	right: 54px;
 	color: #fff;
 	padding: 28px 32px;
-	width: 495px;
+	width: 300px;
+	min-height: 188px;
 }
 .homeslider .caption h4 {
 	margin-top: 0;
