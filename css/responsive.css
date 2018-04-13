@@ -1,0 +1,431 @@
+@media only screen and (min-width: 1169px) {
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+}
+@media only screen and (max-width: 1024px) {
+.h1, h1 {
+    font-size: 30px;
+}
+#testimonials .quote-bx::before {
+  left: 150px;
+}
+
+#tips .img-bx{
+  float: left;
+  width: 100%;
+} 
+#tips .img-bx img{
+  float: left;
+  width: 100%;
+}
+#tips .text-bx {
+  padding: 37px 20px 0px 20px;
+  width: 100%;
+}
+#tips .hiring-bx {
+  width: 100%;
+  padding: 50px 20px 50px 20px;
+  float: left;
+  height: 100%;
+  text-align: center;
+  background-color: #bac1d0;
+}
+
+/*start newsletter*/
+#news-letter .subscribe-form input[type="text"]{
+  width: 300px;
+}
+/*end*/
+
+/*footer css*/
+footer .sec-pad {
+    padding: 100px 0 72px;
+}
+footer .phn-num {
+  font-size: 30px;
+  color: #FFF;
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  left: 64px;
+}
+/*end*/
+
+
+    }
+@media only screen and (max-width: 992px) {
+
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.wd-50{
+    width: 100%;
+}
+.sec-pad {
+    padding: 50px 0;
+}
+#services {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 80px;
+}
+#services .outer-circle {
+  margin: 0 auto 20px auto;
+}
+/*end*/
+
+#testimonials .quote-bx::before {
+  top: 13px;
+  left: 95px;
+}
+#testimonials .text-box {
+  padding: 0 100px 0px 30px;
+}
+/*end*/
+#feature {
+  background-image: none;
+  padding: 50px 0;
+  background-color: #aeeafe;
+  height: 100%;
+}
+.spacer-100 {
+  display: none;
+}
+#feature .text-box .text {
+  padding-right: 0;
+}
+/*end*/
+
+#tips .img-bx{
+  float: left;
+  width: 100%;
+}
+#tips .img-bx img{
+  width: 100%;
+}
+#tips .text-bx {
+  padding: 37px 20px 37px 20px;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+#tips .hiring-bx {
+  width: 100%;
+  padding: 254px 20px 250px 20px;
+  float: left;
+  height: 100%;
+  text-align: center;
+  background-color: #bac1d0;
+}
+/*end*/
+
+#blog{
+    z-index: 20;
+    position: relative;
+}
+#blog.sec-pad{
+  padding: 100px 0 0 0;
+}
+#blog .blue-bknd-col{
+  background-color: #2087c2 !important;
+}
+#blog .container {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+}
+#blog .blog-main-holder {
+    width: 100%;
+    background-color: #FFF;
+    padding-bottom: 50px;
+}
+#blog::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #FFF;
+  background-size: auto auto;
+  background-size: cover;
+  background-position: center left;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+#blog::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: none;
+  /*background: #1e72ba;*/
+  background-size: cover;
+  background-position: center left;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.quote-form {
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 0px;
+    padding-bottom: 100px;
+}
+/* start service css*/
+.single-service-col .ser-nme{
+  font-size: 16px;
+}
+/* end*/
+
+
+
+/*start newsletter css*/
+#news-letter .subscribe-form input[type="text"] {
+    width: 205px;
+}
+#news-letter p {
+  font-size: 18px;
+  padding-left: 15px;
+}
+/*end*/
+
+/* footer css*/
+footer .phn-num {
+  font-size: 30px;
+  color: #FFF;
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  left: 94px;
+}
+.social-links-footer{
+  margin-bottom: 30px;
+}
+/*end*/
+
+    }
+
+
+@media only screen and (min-width: 320px) and (max-width: 736px) {
+
+h1{
+    font-size: 24px;
+}
+
+.wrap-sticky nav.navbar.bootsnav.sticked{
+    position: fixed;
+}
+.section-title h1 {
+    font-size: 24px;
+}
+.wd-50 {
+    width: 100%;
+    margin: auto;
+}
+.sec-pad{
+    padding: 50px 0;
+}
+#topbar{
+    display: none;
+}
+/*start banner*/
+.single-img-banner{
+  height: 100%;
+  height: 550px;
+}
+.single-img-banner .overlay {
+  width: 100%;
+  height: 100%;
+  padding: 150px 0;
+}
+.cd-intro {
+  width: 100%;
+  text-align: center;
+}
+.cd-headline {
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+.single-img-banner h2 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 30px;
+}
+.cd-intro {
+  margin: 0 auto;
+}
+/*end banner*/
+.welcome-area {
+  top: 0;
+  position: relative;
+  margin-bottom: 50px;
+}
+/* start service css*/
+#services {
+  width: 100%;
+  height: 100%;
+}
+#services .service-area{
+  padding-bottom: 50px;
+}
+#services .outer-circle {
+  width: 251px;
+  height: 251px;
+  border-radius: 50%;
+  padding: 23px;
+  margin: auto auto 20px auto;
+}
+.single-info-col .icon-circle{
+  top: 20px;
+}
+.single-info-col .ser-nme {
+  padding: 140px 0 20px;
+}
+.single-service-col {
+  margin-bottom: 20px;
+}
+/* end service section*/
+
+/*start testimonials section*/
+
+#testimonials .quote-bx {
+    width: 828px;
+    background-color: #FFF;
+    padding: 58px 20px 20px;
+    margin: auto;
+}
+#testimonials .instructor-img{
+  float: none;
+  margin: auto;
+}
+#testimonials .quote-bx::before {
+    left: 170px;
+}
+#testimonials .quote-bx {
+  width: 100%;
+}
+#testimonials .name {
+    text-align: center;
+}
+#testimonials .name h3{
+  text-align: center;
+}
+#testimonials .text-box {
+  padding: 0;
+}
+/*end testimonials section*/
+
+/* start our value section css*/
+#feature{
+  background-image: none;
+  height: 100%;
+  padding: 50px 0;
+  background-color: #aeeafe;
+}
+#feature .sep{
+  width: 100%;
+}
+#feature .sep-xs {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-top: 1px solid #99d6ea;
+  z-index: 999;
+  position: relative;
+  width: 90%;
+  float: left;
+  left: 15px;
+}
+#feature .has-skew::before {
+    content: ' ';
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: #aeeafe;
+        background-size: auto auto;
+    background-size: auto auto;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+    transform: none;
+}
+#col-features-area .pad-l {
+    padding-left: 15px;
+}
+/* end col-features-area*/
+
+/*start tips section*/
+#tips .text-bx {
+    padding: 37px 20px 40px 20px;
+    width: 100%;
+    height: 100%;
+}
+#tips .img-bx {
+  float: left;
+  width: 100%;
+  height: 300px;
+}
+#tips .hiring-bx {
+  width: 100%;
+  padding: 50px 20px 70px 20px;
+}
+/*end tips section*/
+
+/*start newsletter section*/
+#call-us h2 {
+  color: #ff9600;
+  font-size: 30px;
+}
+#call-us .phn {
+  font-size: 30px;
+}
+/*end newsletter section*/
+
+
+
+
+
+/* footer css*/
+footer .phn-num {
+  font-size: 30px;
+  color: #FFF;
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  left: 106px;
+}
+footer .quick-links {
+  margin: 30px 0px;
+  float: left;
+}
+.copywrite{
+  text-align: center;
+  float: none;
+}
+.create-by p{
+  text-align: center;
+  padding: 0;
+}
+/*end*/
+}
+
+
+/*end*/
+
+/* footer css*/
+footer .phn-num {
+  font-size: 30px;
+  color: #FFF;
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  left: 70px;
+}
+/*end*/
+}
+
