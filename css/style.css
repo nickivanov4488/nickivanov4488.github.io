@@ -884,10 +884,16 @@ display: table;
 text-transform: capitalize;
 }
 footer .quick-links li a::before {
-    content: '\f101';
+
     font-family: 'fontawesome';
     margin-right: 12px;
     color: #FFF;
+}
+footer .quick-links li a img{
+  width: 150px;
+}
+.margin20{
+  margin-top: 21px;
 }
 footer .plb-man{
 
@@ -1734,4 +1740,10 @@ padding: 10px;
   background:#3063af;
   -webkit-transition:.5s ease;
   transition: .5s ease;
+}
+@media  screen and (max-width: 768px) {
+
+  .devise-display-none{
+    display: none!important;
+  }
 }
